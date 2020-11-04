@@ -1,1 +1,27 @@
 This is my first git file.
+
+Look the git commands below for referance.
+1, To creat empty repository from git comand window or clp or GUI on the working directory.
+
+	a, cd folderName(to change in to working dir)
+	b, git init (to initialize the local repo)
+	c, touch fileName.exe (to create the file in the repo. but not in local repo.)
+	d, git status (to see the status of the files created)
+	e, git add fileName or git add . (to add all to the stage or index) 
+	f, git status (to see the uncommited file)
+	g, git commit (to save to the local repo)
+	   git commit -m "massage"
+	h, git status (to look files after commit)
+===============================================================
+	to see the changes after some modification and save them in the local repository do
+	i, git status 
+	j, git add fileName (modified file)
+	   git add -A (if > two file are modified)
+	k, git commit or git commit -a (to commit for all added files)
+===================================================================
+	to remove file from local repository use
+	l, git rm --cached fileName
+==================================================
+	m, git status
+	n, git commit -m "massage"
+
