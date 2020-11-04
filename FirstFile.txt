@@ -44,6 +44,9 @@ now if you switch to the local repo. you can't see the above modification
 ====================================================
 so to merge them together 
 	w, git merge branchName
+==========================================================
+now to see how to make the above activitied in the (GitHub)Remote repository follow the following
+	
 
 
 
