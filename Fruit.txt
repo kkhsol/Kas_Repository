@@ -1,0 +1,12 @@
+
+
+A List of Fruits are shown as balow
+
+Banana 
+Aple
+Avocado
+Orange
+Grap
+
+
+etc
