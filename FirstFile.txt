@@ -1,8 +1,8 @@
 This is my first git file.
 
 Look the git commands below for referance.
+================================================
 1, To creat empty repository from git comand window or clp or GUI on the working directory.
-
 	a, cd folderName(to change in to working dir)
 	b, git init (to initialize the local repo)
 	c, touch fileName.exe (to create the file in the repo. but not in local repo.)
@@ -13,15 +13,46 @@ Look the git commands below for referance.
 	   git commit -m "massage"
 	h, git status (to look files after commit)
 ===============================================================
-	to see the changes after some modification and save them in the local repository do
+to see the changes after some modification and save them in the local repository do
 	i, git status 
 	j, git add fileName (modified file)
 	   git add -A (if > two file are modified)
 	k, git commit or git commit -a (to commit for all added files)
 ===================================================================
-	to remove file from local repository use
+to remove file from local repository use
 	l, git rm --cached fileName
 ==================================================
 	m, git status
 	n, git commit -m "massage"
+=========================================================
+to creat a branch of a file use 
+	o, git branch branchName (file name of the branch name)
+========================================================
+to change dir to the branchName 
+	p, git checkout branchName 
+	q, git status (to see un tracked file of the branch)
+=================================================================
+if you make some changes of the file on the branch dir and add commit
+it you only can see the modification on the branch. but not in the local repo.
+	r, git add . (to add all the modification)
+	s, git commit -m "massage" (to save changes)
+	t, git status 
+================================================================
+now if you switch to the local repo. you can't see the above modification
+	u, git checkout master (local repo.)
+	v, git checkout branchName (to see the branch again)
+====================================================
+so to merge them together 
+	w, git merge branchName
+
+
+
+
+
+
+
+
+
+
+
 
