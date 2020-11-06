@@ -45,7 +45,22 @@ now if you switch to the local repo. you can't see the above modification
 so to merge them together 
 	w, git merge branchName
 ==========================================================
-now to see how to make the above activitied in the (GitHub)Remote repository follow the following
+now to see how to make or push the above activitied in the (GitHub)Remote repository follow the following
+	x, git remote (to check if you have remote repository)
+	y, git remote add repoName "url" (create the remote repoName)
+	z, git push -u repoName master
+	aa, git push -u repoName branchName (we can this too)
+=================================================================
+if you want to assossate your with the repository
+	bb, git config --global user.name Name or 
+	    git config --global user.email email@gmail.com
+===================================================================
+to see how to pull from remote repository to local repository
+	cc, mkdir dirName (to make folder or dir in the working dir.)
+	dd, cd dirName (change to creared dirName)
+	ee, git init
+	ff, git pull url (url of github)
+	
 	
 
 
